@@ -1,6 +1,6 @@
 # mpld3-growth-complexity-demo
 
-A learning project that presents descriptions of algorithm growth complexities and big-O notation using interactive plots. __UPDATE: This project was built prior to attending Flatiron Fullstack Immersive program, and I believe it offers an example of my passion and work ethic to teach myself before attending any formal program. I'll soon begin refactoring it. Many comments are left in for the time being as self-reminders.__
+A learning project that presents descriptions of algorithm growth complexities and big-O notation using interactive plots. __UPDATE:__ _This project was built prior to attending Flatiron Fullstack Immersive program, and I believe it offers an example of my passion and work ethic to teach myself before attending any formal program. I'll soon begin refactoring it. Many comments are left in the code for the time being as self-reminders._
 
 ## Purpose
 
@@ -11,7 +11,7 @@ A learning project that presents descriptions of algorithm growth complexities a
 
 ## Demo
 
-[Heroku app](https://mpld3-growth-complexity-demo.herokuapp.com) - Single dyno: first request needs a couple of seconds to spin up. N.B. Mobile (< ~480px width) presentation is less complete.
+[Heroku app](https://mpld3-growth-complexity-demo.herokuapp.com) is here. Thanks for checking it out! Any feedback is welcome.
 
 ## Built Using
 
@@ -24,7 +24,6 @@ A learning project that presents descriptions of algorithm growth complexities a
 * [mpld3](http://mpld3.github.io/) - Used to export matplotlib graphics to HTML (renders [D3](https://d3js.org/))
 * [Heroku](https://devcenter.heroku.com/) - deployed to Heroku remote, running on a single web dyno
 * [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) - For running a local development server inside a virtual environment, logging to stdout, spinning up dynos
-* Forked from [mpld3-flask](https://github.com/nipunbatra/mpld3-flask) - Minimal Flask app using mpld3
 * [Underscore.js](underscorejs.org) - Great utility library, learned about debounce()
 * [StackOverflow debounce answer](http://stackoverflow.com/questions/24004791/can-someone-explain-the-debounce-function-in-javascript) - A helpful explication of how debounce() works
 * [Responsive Bootstrap Toolkit](https://github.com/maciej-gurban/responsive-bootstrap-toolkit) - Breakpoint detection in JavaScript (not used in latest version: implemented custom detection/adjustment from scratch, but very valuable to learn from especially OO design)
