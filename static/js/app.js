@@ -1,4 +1,4 @@
-(function($, document, window, viewport) {
+(function($, document, window, viewport) { 
   $(document).ready(function() {
 
      // store these nodes prior to overwrite in generatePlot()
@@ -63,7 +63,7 @@
       // var timeout;
 
       return function() {
-        var context = this,                   // store the this property to pass into function closures
+        var context = this,                   // store 'this' context to pass into function closures
             args = arguments,                 // store the arguments object to pass into function closures
             callNow = immediate && !timeout;  // define conditions for leading-edge firing (leading edge of wait time)
 

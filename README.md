@@ -10,7 +10,7 @@ A learning project that presents descriptions of algorithm growth complexities a
 * To take joy in the study
 
 ## Demo
-
+ 
 [Heroku app](https://mpld3-growth-complexity-demo.herokuapp.com) is here. Thanks for checking it out! Any feedback is welcome.
 
 ## Built Using
