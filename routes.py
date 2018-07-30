@@ -23,7 +23,7 @@ from matplotlib.ticker import FormatStrFormatter
 from threading import Lock
 lock = Lock()
 
-# API for exporting matplotlib graphics to HTML
+# API for exporting matplotlib graphics to d3.js, HTML
 # https://mpld3.github.io
 import mpld3
 # for pan, zoom, move
